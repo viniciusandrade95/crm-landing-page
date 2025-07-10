@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agilizIA - Automatize seu Negócio no WhatsApp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: -webkit-linear-gradient(45deg, #2dd4bf, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">
+                <a href="#" class="gradient-text">agilizIA</a>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-600 hover:text-teal-500 transition">Funcionalidades</a>
+                <a href="#testimonials" class="text-gray-600 hover:text-teal-500 transition">Depoimentos</a>
+                <a href="#pricing" class="text-gray-600 hover:text-teal-500 transition">Preços</a>
+            </nav>
+            <a href="https://plataforma.agilizia.online" class="bg-teal-500 text-white font-semibold px-5 py-2 rounded-lg cta-button shadow-md hover:bg-teal-600">
+                Cadastre-se
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="pt-32 pb-16 md:pt-40 md:pb-24">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
+                    Sua Assistente Inteligente de <span class="gradient-text">WhatsApp</span> Chegou
+                </h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-600">
+                    Pare de perder clientes e tempo. A agilizIA automatiza seus agendamentos e conversas no WhatsApp, para que você possa focar no que faz de melhor.
+                </p>
+                <div class="mt-8 flex justify-center items-center gap-4">
+                    <a href="#" class="bg-teal-500 text-white font-bold px-8 py-4 rounded-lg cta-button text-lg shadow-lg hover:bg-teal-600">
+                        Comece seu Teste Grátis
+                    </a>
+                    <a href="#" class="text-gray-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition">
+                        Ver uma Demonstração
+                    </a>
+                </div>
+            </div>
+            <div class="mt-12 md:mt-16 relative">
+                 <img src="https://placehold.co/900x500/e2e8f0/64748b?text=Tela+do+App" alt="agilizIA app screenshot" class="rounded-2xl shadow-2xl mx-auto border-4 border-white">
+                 <div class="absolute -top-8 -left-8 w-24 h-24 bg-purple-200 rounded-full opacity-50 -z-10"></div>
+                 <div class="absolute -bottom-8 -right-8 w-32 h-32 bg-teal-200 rounded-full opacity-50 -z-10"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Tudo o que você precisa, e nada mais.</h2>
+                <p class="mt-4 text-lg text-gray-600">Um CRM poderoso e simples, projetado para o microempreendedor moderno.</p>
+            </div>
+            <div class="mt-12 grid md:grid-cols-3 gap-8 text-center">
+                <!-- Feature 1 -->
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="inline-block p-4 bg-teal-100 text-teal-600 rounded-full">
+                        <i data-lucide="bot"></i>
+                    </div>
+                    <h3 class="mt-4 text-xl font-semibold">Automação de WhatsApp</h3>
+                    <p class="mt-2 text-gray-600">Seu bot de IA responde a perguntas, captura leads e marca horários 24/7, diretamente no WhatsApp.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="inline-block p-4 bg-purple-100 text-purple-600 rounded-full">
+                        <i data-lucide="calendar-check"></i>
+                    </div>
+                    <h3 class="mt-4 text-xl font-semibold">Agendamento Inteligente</h3>
+                    <p class="mt-2 text-gray-600">Compartilhe sua disponibilidade e deixe os clientes marcarem instantaneamente. Sem mais trocas de mensagens.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="inline-block p-4 bg-pink-100 text-pink-600 rounded-full">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3 class="mt-4 text-xl font-semibold">CRM de Clientes Simples</h3>
+                    <p class="mt-2 text-gray-600">Mantenha o controle de todas as conversas, compromissos e notas de seus clientes em um só lugar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Amado por empreendedores como você</h2>
+                <p class="mt-4 text-lg text-gray-600">Não acredite apenas na nossa palavra. Veja o que nossos usuários estão dizendo.</p>
+            </div>
+            <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="text-gray-700">"A agilizIA mudou o jogo para mim. Estou economizando pelo menos 5 horas por semana só com agendamentos. Meus clientes adoram como é fácil marcar um horário!"</p>
+                    <div class="mt-4 flex items-center">
+                        <img src="https://placehold.co/40x40/a78bfa/ffffff?text=JS" alt="User" class="w-10 h-10 rounded-full">
+                        <div class="ml-3">
+                            <p class="font-semibold">Julia S.</p>
+                            <p class="text-sm text-gray-500">Personal Trainer</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="text-gray-700">"Eu estava perdendo leads porque não conseguia responder rápido o suficiente. O bot de WhatsApp é um salva-vidas. Ele responde perguntas e os coloca na minha agenda enquanto estou ocupado."</p>
+                    <div class="mt-4 flex items-center">
+                        <img src="https://placehold.co/40x40/2dd4bf/ffffff?text=M" alt="User" class="w-10 h-10 rounded-full">
+                        <div class="ml-3">
+                            <p class="font-semibold">Marco P.</p>
+                            <p class="text-sm text-gray-500">Cabeleireiro</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md">
+                    <p class="text-gray-700">"Finalmente, um CRM que não é complicado! É tão fofo e fácil de usar. Me sinto muito mais organizada e profissional."</p>
+                    <div class="mt-4 flex items-center">
+                        <img src="https://placehold.co/40x40/f472b6/ffffff?text=C" alt="User" class="w-10 h-10 rounded-full">
+                        <div class="ml-3">
+                            <p class="font-semibold">Carla F.</p>
+                            <p class="text-sm text-gray-500">Nail Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Preços simples e transparentes</h2>
+            <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Escolha o plano certo para você. Cancele a qualquer momento.</p>
+            <div class="mt-12 max-w-md mx-auto bg-gray-50 rounded-2xl p-8 shadow-lg border border-gray-200">
+                 <h3 class="text-2xl font-bold text-gray-900">Plano Pro</h3>
+                 <p class="mt-2 text-gray-600">Todos os recursos, clientes ilimitados.</p>
+                 <div class="my-6">
+                     <span class="text-5xl font-extrabold text-gray-900">R$49</span>
+                     <span class="text-gray-500">/ mês</span>
+                 </div>
+                 <ul class="space-y-3 text-left">
+                     <li class="flex items-center"><i data-lucide="check-circle-2" class="w-5 h-5 text-teal-500 mr-2"></i>Bot de IA para WhatsApp</li>
+                     <li class="flex items-center"><i data-lucide="check-circle-2" class="w-5 h-5 text-teal-500 mr-2"></i>Agendamento Inteligente</li>
+                     <li class="flex items-center"><i data-lucide="check-circle-2" class="w-5 h-5 text-teal-500 mr-2"></i>Clientes e Notas Ilimitados</li>
+                     <li class="flex items-center"><i data-lucide="check-circle-2" class="w-5 h-5 text-teal-500 mr-2"></i>Suporte Prioritário</li>
+                 </ul>
+                 <a href="#" class="mt-8 block w-full bg-teal-500 text-white font-bold py-3 rounded-lg cta-button text-lg shadow-md hover:bg-teal-600">
+                    Comece Agora
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-2xl font-bold">
+                    <a href="#" class="gradient-text">agilizIA</a>
+                </div>
+                <div class="flex mt-4 md:mt-0 space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i data-lucide="facebook"></i></a>
+                </div>
+            </div>
+            <div class="mt-6 text-center text-gray-500 text-sm">
+                &copy; 2024 agilizIA. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
